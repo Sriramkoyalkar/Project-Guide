@@ -1,0 +1,4 @@
+this is version 1 of my project
+hello
+this is from master
+i want this to go into commit 2
