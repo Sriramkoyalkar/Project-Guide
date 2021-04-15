@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head >
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Welcome to Magic travel desk</title>
+</head>
+
+<body style="background-color:yellowgreen">
+    <div id="success" class="alert alert-success alert-dismissible fade" role="alert">
+        <strong>Success!</strong> Your travel request has been succesfully submitted
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <div id="failure" class="alert alert-danger alert-dismissible fade" role="alert">
+        <strong>Error..!</strong> Your travel request has been Denied..!
+        Fill the form properly..!
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <div class="container my-3" >
+        <h1>Magic Travel Desk </h1>
+        <hr>
+        <form>
+
+            <div class="form-group">
+                <label for="name"><h3>Username</h3></label>
+                <input type="text" class="form-control is-invalid" id="name" placeholder="Enter your username">
+                <small id="namevalid" class="form-control text-muted invalid-feedback">
+                    Your username must be 2-10 characters long and cannot start with a number </small>
+            </div>
+
+            <div class="form-group">
+                <label for="email"><h3>Email address</h3></label>
+                <input type="text" class="form-control" id="email" placeholder="Enter your email">
+                <small id="emailvalid" class="form-control text-muted invalid-feedback">
+                    Your email must be valid email</small>
+            </div>
+
+            <div class="form-group">
+                <label for="car"><h3>Select your car</h3></label>
+                <select class="form-control" id="car">
+                    <option>fortuner</option>
+                    <option>Ford eco</option>
+                    <option>mercedes</option>
+                    <option>audi</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="address"><h3>Enter your address</h3></label>
+                <input class="form-control" id="address" name="address" rows="3"></input>
+            </div>
+            <div class="form-group">
+                <label for="phone"><h3>Enter your contact number</h3></label>
+                <input class="form-control" name="phone" id="phone" rows="3">
+                <small id="phonevalid" class="form-control text-muted invalid-feedback">
+                    Your phone number must be 10 digits long</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1"><h3>Any Other messages..!</h3></label>
+                <input class="form-control" id="exampleFormControlTextarea1" rows="3" column="3"></input>
+            </div>
+            <button id="submit" class="btn btn-primary" style="background-color: black;">submit</button>
+        </form>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="project.js"></script>
+</body>
+
+</html>

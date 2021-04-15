@@ -1,0 +1,29 @@
+
+#ok{
+   background-color: bisque; 
+}
+div{
+        text-align: center;
+}
+
+h1{
+    font-size: 80px;
+    font-family: Impact;
+}
+
+button{
+    width: 250px;
+    height: 80px;
+    text-decoration: solid;
+    text-decoration-color: brown;
+    background-color: rgb(141, 207, 216);
+    color: rgb(22, 22, 22);
+}
+
+p{
+    font-size:  35px;
+}
+
+button:hover {
+    background-color: rgb(238, 92, 99);
+}
